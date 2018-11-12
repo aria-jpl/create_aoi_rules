@@ -1,0 +1,1 @@
+{ "dataset_tag": "standard", "project": "imaging-fault-slip", "singlesceneOnly": "true", "preReferencePairDirection": "backward", "postReferencePairDirection": "none", "temporalBaseline": "24", "minMatch": "2", "covth": "0.95", "precise_orbit_only": "false", "azimuth_looks": "11", "range_looks": "33", "filter_strength": "0.5", "dem_type": "SRTM+v3" }

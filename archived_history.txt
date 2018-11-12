@@ -1,0 +1,168 @@
+commit 3a630e71386e3c8a0ee0c1df05e9ee2eb7373ee8
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Sun Nov 11 23:09:03 2018 -0800
+
+    update cod params
+
+commit d802f695dadc79701beea495e27e2c1f66b1d10c
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Nov 8 14:27:05 2018 -0800
+
+    Update job-spec.json.create_slcp_rule
+
+commit dfcbb5488feccf0058a3a98d964bcac2b1f32194
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Nov 8 14:26:52 2018 -0800
+
+    Update job-spec.json.create_lar_rule
+
+commit e0e54a9375c261d4e932adc66360bd9821f58d80
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Nov 8 14:26:41 2018 -0800
+
+    Update job-spec.json.create_cor_rule
+
+commit 595f19173616e28cbbc74bcc9d966b493067a53d
+Author: Justin P Linick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Nov 8 14:26:29 2018 -0800
+
+    rm settings.conf
+
+commit 533264400c495604d6c7cc99decbc4f2c5c2c39d
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Mon Oct 8 13:07:14 2018 -0700
+
+    skip generating cod temporal baseline param
+
+commit 60283bb2de772258fe583cf9fb0797428df85f63
+Author: gmanipon <gmanipon@jpl.nasa.gov>
+Date:   Mon Sep 24 20:44:29 2018 +0000
+
+    clean up
+
+commit faf0d8e98992f64ab17e7c85e3ac074b48f97ca8
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jul 13 00:50:30 2018 +0000
+
+    empty cor keyword args
+
+commit 550d344e832a5a29a2de825ce077472fd1b7805a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jul 13 00:39:57 2018 +0000
+
+    fix naming of config file
+
+commit 9fff97fe5a461611cd3707606961aaa139331e1a
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jul 13 00:30:29 2018 +0000
+
+    update job name to s1-cor
+
+commit 4e0c21d589feb82e238b8fc818a18293db0c1027
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jul 13 00:10:23 2018 +0000
+
+    add COR rule generation
+
+commit 62e689fb2b01d2cf7d176ff6e6728b154a688d09
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 15:41:23 2018 -0700
+
+    update lar & slcp conditions time range
+
+commit 242da3523ed219b1cf9d8c8f469e22cd892f97e0
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 14:33:18 2018 -0700
+
+    update met keys
+
+commit 0bdc089ec296523638446c2d079cd6bf81b4660d
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 13:49:31 2018 -0700
+
+    new job spec regex
+
+commit 380060a36d05af03dde094ab838638c1271bd135
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 13:00:27 2018 -0700
+
+    start/endtime range
+
+commit 46a818532f7a4df3c7a736f165b29284277c0826
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 12:22:54 2018 -0700
+
+    update lar config
+
+commit cb32949f780c0d05168c21b06bddec72ff7e4579
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 11:52:03 2018 -0700
+
+    fix hysdsio
+
+commit 1a84f80fcec1593402f9771f0986f0e1ef882c76
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 11:50:27 2018 -0700
+
+    update configs
+
+commit 779b16cbd7d25b527e98881465c518277888cff8
+Merge: 3596d15 237f00f
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 11:40:58 2018 -0700
+
+    Merge branch 'master' of https://github.jpl.nasa.gov/aria-hysds/create_aoi_rules
+
+commit 3596d15b54a7016d14ae95d1e7d5e85a6370155b
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 10 11:40:26 2018 -0700
+
+    finishing slcp & lar rules
+
+commit 237f00fbad60f1a7c922a13689187e56c2705e93
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Tue Jul 3 04:09:48 2018 +0000
+
+    update commons import and cod rule name
+
+commit fe88fcbfde5f566a16bfe582e3015760714f8820
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Fri Jun 29 09:05:49 2018 -0700
+
+    update rule mapping
+
+commit 1363598a7ebc24cbb4494241ad4f7607ecef8c53
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 28 23:06:47 2018 +0000
+
+    add username to rule propogation
+
+commit bab09a9d19016f208ab257e891503013d8e9fa26
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 28 21:50:24 2018 +0000
+
+    update user passthrough
+
+commit cba3845ada5cac24154eb38001275d6e50f75f81
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 28 20:16:46 2018 +0000
+
+    update config path
+
+commit f110c55167e34fc08ba2eaf3e9a9e556f5baf056
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Thu Jun 28 19:41:42 2018 +0000
+
+    update context path
+
+commit c67bae411f13726f944420322b3977b8518058b4
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Jun 27 18:49:10 2018 -0700
+
+    update enum
+
+commit 3158077283d2cc9b70c5668d08d80e34f06970fd
+Author: jlinick <Justin.P.Linick@jpl.nasa.gov>
+Date:   Wed Jun 27 18:43:38 2018 -0700
+
+    initial commit

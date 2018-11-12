@@ -1,0 +1,8 @@
+{
+  "dataset_tag": "socal_mudslide_20180109_cod",
+  "project": "urgent-response",
+  "slcp_version": "v1.2",
+  "minmatch": "2",
+  "min_overlap": "0.3",
+  "aoi_name": "AOI_socal_mudslide_20180109"
+}

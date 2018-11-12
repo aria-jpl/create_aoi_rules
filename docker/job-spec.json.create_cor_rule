@@ -1,0 +1,69 @@
+{
+  "command":"/home/ops/verdi/ops/create_aoi_rules/create_cor_rule.py",
+  "imported_worker_files": {
+    "/home/ops/.netrc": "/home/ops/.netrc",
+    "/home/ops/.aws": "/home/ops/.aws"
+  },
+  "recommended-queues" : [
+    "factotum_job-worker-small",
+    "factotum-job_worker-large",
+    "urgent-response-job_worker-smalle"
+  ],
+  "disk_usage":"2GB",
+  "soft_time_limit": 1000,
+  "time_limit": 1200,
+  "params" : [
+    {
+      "name": "cor_job_version",
+      "destination": "context"
+    },
+    {
+      "name": "cor_job_queue",
+      "destination": "context"
+    },
+    {
+      "name": "cor_job_priority",
+      "destination": "context"
+    },
+    {
+      "name": "slcp_version",
+      "destination": "context"
+    },
+    { 
+      "name": "dataset_tag",
+      "destination": "context"
+    },
+    {
+      "name": "project",
+      "destination": "context"
+    },
+    { 
+      "name": "location",
+      "destination": "context"
+    },
+    {
+      "name": "aoi_name",
+      "destination": "context"
+    },
+    {
+      "name": "starttime",
+      "destination": "context"
+    },
+    {
+      "name": "endtime",
+      "destination": "context"
+    },
+    {
+      "name": "track_number",
+      "destination": "context"
+    },
+    {
+      "name": "submit_job",
+      "destination": "context"
+    },
+    {
+      "name": "user",
+      "destination": "context"
+    }
+  ]
+}

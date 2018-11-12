@@ -1,0 +1,80 @@
+{
+  "label" : "Create AOI COR Trigger Rule",
+  "submission_type": "iteration",
+  "action-type":  "both",
+  "allowed_accounts": [ "ops" ],
+  "params" : [
+    {
+      "name": "cor_job_version",
+      "from": "submitter",
+      "type": "jobspec_version",
+      "version_regex":"s1-cor"
+    },
+    {
+      "name": "cor_job_queue",
+      "from": "submitter",
+      "type": "text",
+      "default": "urgent-response-job_worker-small"
+    },
+    {
+      "name": "cor_job_priority",
+      "from": "submitter",
+      "type": "enum",
+      "enumerables": ["1","2","3","4","5","6","7","8","9"]
+    },
+    { 
+      "name": "slcp_version",
+      "from": "submitter",
+      "type": "text",
+      "default": "v1.2"
+    },
+    { 
+      "name": "dataset_tag",
+      "from": "dataset_jpath:_source.type",
+      "type": "text"
+    },
+    { 
+      "name": "project",
+      "from": "dataset_jpath:_source.account",
+      "type": "text"
+    },
+    {
+      "name": "location",
+      "from": "dataset_jpath:_source.location",
+      "type": "text"
+    },
+    {
+      "name": "aoi_name",
+      "from": "dataset_jpath:_source.label",
+      "type": "text"
+    },
+    {
+      "name": "starttime",
+      "from": "dataset_jpath:_source.starttime",
+      "type": "text"
+    },
+    {
+      "name": "endtime",
+      "from": "dataset_jpath:_source.endtime",
+      "type": "text"
+    },
+    {
+      "name": "track_number",
+      "from": "submitter",
+      "type": "number",
+      "optional": true
+    },
+    {
+      "name": "submit_job",
+      "from": "submitter",
+      "type": "boolean",
+      "default": "true"
+    },
+    {
+      "name": "user",
+      "from": "dataset_jpath:_source.metadata.username",
+      "type": "text"
+
+    }
+  ]
+}

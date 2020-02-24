@@ -66,7 +66,7 @@ def build_condition(ctx):
     condition['filtered']['query']['bool']['must'][2]['range']['metadata.sensingStart']['from'] = ctx['starttime']
     condition['filtered']['query']['bool']['must'][2]['range']['metadata.sensingStart']['to'] = ctx['endtime']
     condition['filtered']['filter']['geo_shape']['location']['shape'] = ctx['location']
-    if 'track_number' in ctx.keys() and ctx['track_number'] is not None and ctx['track_number'] != '':
+    if 'track_number' in list(ctx.keys()) and ctx['track_number'] is not None and ctx['track_number'] != '':
         condition['filtered']['query']['bool']['must'][1]['term']['metadata.trackNumber'] = ctx['track_number']
     else:
         del condition['filtered']['query']['bool']['must'][1]
